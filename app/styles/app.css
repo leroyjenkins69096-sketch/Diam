@@ -1,0 +1,94 @@
+:root {
+  /* Diamond Packs tokens (legacy var names kept so untouched routes inherit the theme) */
+  --bg: #06070A;
+  --bg-sky: #06070A;
+  --fg: #ECF7FF;
+  --fg-muted: #B5C2D4;
+  --card: #141922;
+  --card2: #0F131A;
+  --panel: #0D1016;
+  --panel2: #0A0D12;
+  --ink: #03121B;
+  --border: rgba(160, 220, 255, 0.12);
+  --accent: #8ADCFF;
+  --ice: #E6EEF5;
+  --steel: #5E8FB0;
+  --font-display: 'Unbounded', sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'Share Tech Mono', ui-monospace, monospace;
+  --ease: cubic-bezier(.4, 0, .2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); }
+
+body {
+  font-family: var(--font-body);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button { font-family: inherit; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--fg); text-decoration: underline; }
+input::placeholder { color: #6B788C; }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+
+@keyframes dp-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes dp-twinkle {
+  0%, 100% { opacity: .15; transform: scale(.55) rotate(0); }
+  50% { opacity: 1; transform: scale(1) rotate(45deg); }
+}
+
+/* ── Interaction helpers (replace the design's style-hover) ─────────────── */
+.dp-lift { transition: transform .2s var(--ease), border-color .2s; }
+.dp-lift:hover { transform: translateY(-3px); border-color: var(--accent) !important; }
+.dp-lift-ice:hover { border-color: var(--ice) !important; }
+.dp-bright:hover { filter: brightness(1.08); }
+.dp-outline:hover { border-color: var(--fg) !important; }
+.dp-shelf:hover { background: rgba(138, 220, 255, 0.06) !important; }
+.dp-tile { transition: background .2s; }
+.dp-tile:hover { background: #18202B !important; }
+.dp-plain, .dp-plain:hover { text-decoration: none; color: inherit; }
+
+.dp-noscroll { scrollbar-width: none; }
+.dp-noscroll::-webkit-scrollbar { display: none; }
+
+/* ── Shell: sidebar on desktop, header + tab bar on phone ───────────────── */
+.dp-side { display: flex; }
+.dp-phone { display: none; }
+.dp-main { margin-left: 256px; min-height: 100vh; display: flex; flex-direction: column; min-width: 0; }
+.dp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+
+@media (max-width: 760px) {
+  .dp-side { display: none; }
+  /* contents: lets the header stick against the page, not its wrapper */
+  .dp-phone { display: contents; }
+  .dp-main { margin-left: 0; padding-bottom: 96px; }
+  .dp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.dp-prose p { margin: 0 0 1em; }
+.dp-prose a { color: var(--accent); }
+
+/* ── Price range (dual handle, diamond thumbs) ──────────────────────────── */
+.dp-range { position: relative; height: 38px; }
+.dp-range-track { position: absolute; left: 0; right: 0; top: 18px; height: 3px; background: rgba(160, 220, 255, 0.18); }
+.dp-range-fill { position: absolute; top: 18px; height: 3px; background: var(--accent); box-shadow: 0 0 10px rgba(138, 220, 255, 0.6); }
+.dp-range input[type=range] {
+  position: absolute; left: 0; top: 0; width: 100%; height: 38px; margin: 0; padding: 0; border: 0; outline: 0;
+  background: transparent; pointer-events: none; -webkit-appearance: none; appearance: none;
+}
+.dp-range input[type=range]::-webkit-slider-runnable-track { background: transparent; height: 38px; }
+.dp-range input[type=range]::-moz-range-track { background: transparent; height: 38px; }
+.dp-range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; pointer-events: auto; width: 24px; height: 24px; margin-top: 7px;
+  background: var(--accent); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); border: 0; cursor: grab;
+}
+.dp-range input[type=range]::-moz-range-thumb {
+  pointer-events: auto; width: 24px; height: 24px; background: var(--accent);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); border: 0; cursor: grab;
+}
+.dp-range input[type=range]:active::-webkit-slider-thumb { cursor: grabbing; }

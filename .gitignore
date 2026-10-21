@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+.env
+.shopify/
+*.local
+.DS_Store
+.react-router/
+tsconfig.tsbuildinfo

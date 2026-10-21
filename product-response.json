@@ -1,0 +1,2573 @@
+{
+    "data": {
+        "products": {
+            "edges": [
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8508493922465",
+                        "title": "#F31B Purple Runtz",
+                        "handle": "test-product-2",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-08T08:25:28Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46296798953633",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "325.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46296798986401",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "600.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46296799019169",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1075.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG-5928.jpg?v=1778008664"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8509629890721",
+                        "title": "#F28C Bubble Tap",
+                        "handle": "f28c-bubble-tap",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-08T08:25:29Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46331400290465",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46331400323233",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "550.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46331400356001",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "975.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG-5930.jpg?v=1778009359"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513052147873",
+                        "title": "#J85 Gold Ace Ultra Premium 2G Disposables",
+                        "handle": "j85-gold-ace-ultra-premium-2g-disposables",
+                        "productType": "Carts",
+                        "tags": [],
+                        "publishedAt": "2026-05-10T23:11:03Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420212711585",
+                                        "title": "Default Title",
+                                        "price": {
+                                            "amount": "14.75"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5960_efc0a261-27a3-49d3-ba6a-abd8d472f403.jpg?v=1778454581"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513053393057",
+                        "title": "#J81 Authentic Havana Whole Melts Badder",
+                        "handle": "j81-authentic-havana-whole-melts-badder",
+                        "productType": "Wax",
+                        "tags": [],
+                        "publishedAt": "2026-05-10T23:18:50Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420194656417",
+                                        "title": "Oz",
+                                        "price": {
+                                            "amount": "75.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420194689185",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420194721953",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "600.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420194754721",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1100.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5967.jpg?v=1778455011"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513057554593",
+                        "title": "#R78X Citrus Splash",
+                        "handle": "r78x-citrus-splash",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-10T23:25:35Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199506081",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "175.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199538849",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199571617",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "475.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5969.jpg?v=1778455483"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513057620129",
+                        "title": "#E36A Space Dunkaroos",
+                        "handle": "e36a-space-dunkaroos",
+                        "productType": "Mixed Light",
+                        "tags": [],
+                        "publishedAt": "2026-05-10T23:26:50Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199899297",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199932065",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420199964833",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "725.0"
+                                        },
+                                        "availableForSale": false
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5971.jpg?v=1778455575"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513057980577",
+                        "title": "#R98Y Super Boof",
+                        "handle": "r98y-super-boof",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-10T23:37:24Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420201963681",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420201996449",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "750.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420202029217",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1360.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5973.jpg?v=1778456244"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513058570401",
+                        "title": "#J3 Edibles \ud83c\udf6d",
+                        "handle": "j3-edibles-\ud83c\udf6d",
+                        "productType": "Edibles",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T00:03:57Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46420207927457",
+                                        "title": "Default Title",
+                                        "price": {
+                                            "amount": "9.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5976.jpg?v=1778457602"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513476362401",
+                        "title": "#R90X Green Apple Starburst Pops",
+                        "handle": "r90x-green-apple-starburst-pops",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:02:59Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421216821409",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421216854177",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "750.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421216886945",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5978.jpg?v=1778475730"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513490124961",
+                        "title": "#E2A Maynard\u2019s Sours",
+                        "handle": "e2a-maynard-s-sours",
+                        "productType": "Smalls/Mediums",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:08:05Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421231435937",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421231468705",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "500.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421231501473",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "875.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5980.jpg?v=1778476013"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513494515873",
+                        "title": "#E33B Cherry Gushers",
+                        "handle": "e33b-cherry-gushers",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:09:45Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421243756705",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421243789473",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "475.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421243822241",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "825.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5983.jpg?v=1778476145"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513498677409",
+                        "title": "#E18A Cake Pops",
+                        "handle": "e18a-cake-pops",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:11:37Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421248114849",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421248147617",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "500.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421248180385",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "875.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5985.jpg?v=1778476245"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513503756449",
+                        "title": "#R67Y Lemon Slushee",
+                        "handle": "r67y-lemon-slushee",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:13:27Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421254832289",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421254865057",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421254897825",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1450.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5987.jpg?v=1778476368"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513508966561",
+                        "title": "#R64X 4 Kings Kush",
+                        "handle": "r64x-4-kings-kush",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:15:49Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421260435617",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421260468385",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421260501153",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5957.jpg?v=1778476511"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513512931489",
+                        "title": "#R94X Berry Grape Push Pops",
+                        "handle": "r94x-berry-grape-push-pops",
+                        "productType": "Terp",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:17:51Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421264629921",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421264662689",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421264695457",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5991.jpg?v=1778476620"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513517060257",
+                        "title": "#R63T Gummy Grape Peelerz",
+                        "handle": "r63t-gummy-grape-peelerz",
+                        "productType": "Terp",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:19:32Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421274132641",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421274165409",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "750.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421274198177",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1375.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5993.jpg?v=1778476745"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513521254561",
+                        "title": "#R92X Gelato 421",
+                        "handle": "r92x-gelato-421",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:21:15Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421278425249",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "375.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421278458017",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "700.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421278490785",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5995.jpg?v=1778476843"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513522434209",
+                        "title": "#E1A Muscle Bubba",
+                        "handle": "e1a-muscle-bubba",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:27:45Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421279670433",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421279703201",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "500.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421279735969",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "875.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5997.jpg?v=1778476951"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513526497441",
+                        "title": "#G5B Chupa Chups (Smalls)",
+                        "handle": "g5b-chupa-chups",
+                        "productType": "Smalls/Mediums",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:28:02Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421288812705",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421288845473",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "450.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421288878241",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "800.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_5999.jpg?v=1778477044"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513530986657",
+                        "title": "#L21B Bubba Boot",
+                        "handle": "l21b-bubba-boot",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:28:14Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421293400225",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421293432993",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "475.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421293465761",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "850.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6002.jpg?v=1778477135"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513548255393",
+                        "title": "#H36B Trufflini",
+                        "handle": "h36b-trufflini",
+                        "productType": "Mixed Light",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:31:33Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421316731041",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421316763809",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421316796577",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "750.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6006.jpg?v=1778477467"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513549861025",
+                        "title": "#R91X Lemon Sour Faces",
+                        "handle": "r91x-lemon-sour-faces",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:32:05Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421318402209",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "375.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421318434977",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "675.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421318467745",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1225.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6010.jpg?v=1778477634"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513558544545",
+                        "title": "#R96X Gravity Taffy",
+                        "handle": "r96x-gravity-taffy",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:35:12Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421327773857",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421327806625",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "750.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421327839393",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1375.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6012.jpg?v=1778477732"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513563426977",
+                        "title": "#R86X Squishy Cloudz Candy",
+                        "handle": "r86x-squishy-cloudz-candy",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:36:52Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421333606561",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421333639329",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "725.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421333672097",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1350.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6014.jpg?v=1778477873"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513567195297",
+                        "title": "#G14A Cherry Rips (Smalls)",
+                        "handle": "g14a-cherry-rips",
+                        "productType": "Smalls/Mediums",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:38:33Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421337735329",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421337768097",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "450.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421337800865",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6016.jpg?v=1778477973"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513588854945",
+                        "title": "#F11A Crunchy Candy Cherries",
+                        "handle": "f11a-crunchy-candy-cherries",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:47:03Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421363654817",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421363687585",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "550.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421363720353",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "975.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6018.jpg?v=1778478516"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513594687649",
+                        "title": "#F1C Mac Attack",
+                        "handle": "f1c-mac-attack",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:49:28Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421369553057",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421369585825",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "500.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421369618593",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "875.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6022_72e86d77-6803-40e1-8181-648b06827fe8.jpg?v=1778478846"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513597800609",
+                        "title": "#G10B Blueberry Jolly Ranchers (Mediums)",
+                        "handle": "g10b-blueberry-jolly-ranchers-mediums",
+                        "productType": "Terp",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:50:51Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421372764321",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "325.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421372797089",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "575.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421372829857",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1050.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6024.jpg?v=1778478685"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513602814113",
+                        "title": "#H12A Nutter Butter",
+                        "handle": "h12a-nutter-butter",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:52:43Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421379350689",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421379383457",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "525.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421379416225",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "950.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6026.jpg?v=1778478792"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513609203873",
+                        "title": "#G27C Mac Miller",
+                        "handle": "g27c-mac-miller",
+                        "productType": "Mixed Light",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:55:11Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421385838753",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421385871521",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "425.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421385904289",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "725.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6028.jpg?v=1778478942"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513612513441",
+                        "title": "#G39B Cream Team",
+                        "handle": "g39b-cream-team",
+                        "productType": "Mixed Light",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:56:25Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421389213857",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421389246625",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "450.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421389279393",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6030.jpg?v=1778479006"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513614807201",
+                        "title": "#G26C Cherrylato",
+                        "handle": "g26c-cherrylato",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:57:23Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421391573153",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "225.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421391605921",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421391638689",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "675.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6032.jpg?v=1778479063"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513618411681",
+                        "title": "#E40C Happy Cola Gummies",
+                        "handle": "e40c-happy-cola-gummies",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T05:58:42Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421395308705",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "350.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421395341473",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "650.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421395374241",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1200.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6034.jpg?v=1778479157"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513623031969",
+                        "title": "#J92 Luigi 2G Disposable + Preroll",
+                        "handle": "j92-luigi-2g-disposable-preroll",
+                        "productType": "Carts",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T06:00:30Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421400060065",
+                                        "title": "Default Title",
+                                        "price": {
+                                            "amount": "14.75"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6036.jpg?v=1778479246"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513630240929",
+                        "title": "#J91 Big Chief x Fryd 2G Disposables",
+                        "handle": "j91-big-chief-x-fryd-2g-disposables",
+                        "productType": "Carts",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T06:03:48Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46421410021537",
+                                        "title": "Default Title",
+                                        "price": {
+                                            "amount": "14.75"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6038.jpg?v=1778479451"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8513746534561",
+                        "title": "#J76 Devour Powdered Donut Holes 2G Prerolls",
+                        "handle": "j76-devour-powdered-donut-holes-2g-prerolls",
+                        "productType": "Prerolls",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T06:41:24Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423613800609",
+                                        "title": "1+",
+                                        "price": {
+                                            "amount": "12.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423613833377",
+                                        "title": "10+",
+                                        "price": {
+                                            "amount": "11.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423613866145",
+                                        "title": "50+",
+                                        "price": {
+                                            "amount": "10.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423613898913",
+                                        "title": "100+",
+                                        "price": {
+                                            "amount": "9.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423613931681",
+                                        "title": "500+",
+                                        "price": {
+                                            "amount": "8.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6040.jpg?v=1778481705"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514132902049",
+                        "title": "#H37C Astronaut Ice Cream",
+                        "handle": "h37c-astronaut-ice-cream",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T18:40:06Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423619731617",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "200.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423619764385",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "325.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423619797153",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "525.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6043.jpg?v=1778524773"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514133262497",
+                        "title": "#E32C Haribo Sour Kicks",
+                        "handle": "e32c-haribo-sour-kicks",
+                        "productType": "Exotic",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T18:41:22Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423621304481",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "350.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423621337249",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "625.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423621370017",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1150.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6045.jpg?v=1778524969"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514133459105",
+                        "title": "#H6B Mac Sauce",
+                        "handle": "h6b-mac-sauce",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T18:44:02Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423622254753",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "950.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6047.jpg?v=1778525164"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514134081697",
+                        "title": "#L1A Sacred Fruit",
+                        "handle": "l1a-sacred-fruit",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T18:50:25Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423624777889",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423624810657",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "475.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423624843425",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "850.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6049.jpg?v=1778525527"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514134605985",
+                        "title": "#F23C Bubba Platinum",
+                        "handle": "f23c-bubba-platinum",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T18:54:07Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423630250145",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423630282913",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "475.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423630315681",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "850.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6051.jpg?v=1778525852"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514135523489",
+                        "title": "#L12A Gummi Bears",
+                        "handle": "l12a-gummi-bears",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:00:44Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423635427489",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "225.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423635460257",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423635493025",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "675.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6053.jpg?v=1778526386"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514137620641",
+                        "title": "#L19C White Magic Runtz",
+                        "handle": "l19c-white-magic-runtz",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:07:31Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423640375457",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423640408225",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "550.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423640440993",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1000.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6055.jpg?v=1778526547"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514137915553",
+                        "title": "#F33C Blueberry Banner",
+                        "handle": "f33c-blueberry-banner",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:10:37Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423643062433",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "325.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423643095201",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "575.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423643127969",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1050.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6057.jpg?v=1778526739"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514138374305",
+                        "title": "#F29B Grape Jolly Ranchers",
+                        "handle": "f29b-grape-jolly-ranchers",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:13:54Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423644700833",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "325.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423644733601",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "575.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423644766369",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1025.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6059.jpg?v=1778526936"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514138505377",
+                        "title": "#F15C Triple Berry",
+                        "handle": "f15c-triple-berry",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:16:51Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423645061281",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "300.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423645094049",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "550.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423645126817",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "1000.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6061.jpg?v=1778527146"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514141159585",
+                        "title": "#F39B White Gumbo",
+                        "handle": "f39b-white-gumbo",
+                        "productType": "indoor",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:32:38Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423680057505",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423680090273",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "450.0"
+                                        },
+                                        "availableForSale": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423680123041",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "775.0"
+                                        },
+                                        "availableForSale": false
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6063.jpg?v=1778528170"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514141847713",
+                        "title": "#G11B Alien OG",
+                        "handle": "g11b-alien-og",
+                        "productType": "Mixed Light",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:37:21Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423686185121",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "250.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423686217889",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423686250657",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "675.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6065.jpg?v=1778528404"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514144927905",
+                        "title": "#H21A Sour Diesel",
+                        "handle": "h21a-sour-diesel",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:43:59Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423709319329",
+                                        "title": "QP",
+                                        "price": {
+                                            "amount": "175.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423709352097",
+                                        "title": "HP",
+                                        "price": {
+                                            "amount": "275.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423709384865",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "450.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6067.jpg?v=1778528772"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "id": "gid://shopify/Product/8514145976481",
+                        "title": "#H28C Lemon Haze",
+                        "handle": "h28c-lemon-haze",
+                        "productType": "deps",
+                        "tags": [],
+                        "publishedAt": "2026-05-11T19:51:25Z",
+                        "variants": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "gid://shopify/ProductVariant/46423722721441",
+                                        "title": "P",
+                                        "price": {
+                                            "amount": "400.0"
+                                        },
+                                        "availableForSale": true
+                                    }
+                                }
+                            ]
+                        },
+                        "images": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "url": "https://cdn.shopify.com/s/files/1/0725/2515/2417/files/IMG_6069.jpg?v=1778529207"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "cost": {
+            "requestedQueryCost": 162
+        }
+    }
+}

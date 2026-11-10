@@ -12,7 +12,6 @@ import {
   useRouteLoaderData,
 } from 'react-router';
 import type {Route} from './+types/root';
-const favicon = '/logo.webp';
 import {FOOTER_QUERY, HEADER_QUERY} from '~/lib/fragments';
 import resetStyles from '~/styles/reset.css?url';
 import appStyles from '~/styles/app.css?url';
@@ -23,6 +22,7 @@ import {BRAND} from '~/data/brand';
 import {CartDrawer} from '~/components/CartDrawer';
 import {getAllProducts} from '~/lib/shopify-products';
 import {isShopifyConnected} from '~/lib/shopify-config';
+import {getActiveSeason, useLogo, useSeason} from '~/lib/seasonal';
 
 export type RootLoader = typeof loader;
 
@@ -46,7 +46,6 @@ export function links() {
     },
     {rel: 'preconnect', href: 'https://cdn.shopify.com'},
     {rel: 'preconnect', href: 'https://shop.app'},
-    {rel: 'icon', type: 'image/webp', href: favicon},
   ];
 }
 
@@ -59,6 +58,8 @@ export async function loader(args: Route.LoaderArgs) {
     ...deferredData,
     ...criticalData,
     publicStoreDomain: env.PUBLIC_STORE_DOMAIN,
+    // Resolved per request, so seasonal logo/theme switch on and off by date alone.
+    season: getActiveSeason(),
     shop: getShopAnalytics({
       storefront,
       publicStorefrontId: env.PUBLIC_STOREFRONT_ID,
@@ -163,13 +164,16 @@ function loadDeferredData({context}: Route.LoaderArgs) {
 
 export function Layout({children}: {children?: React.ReactNode}) {
   const nonce = useNonce();
+  const season = useSeason();
+  const logo = useLogo();
   return (
-    <html lang="en">
+    <html lang="en" data-season={season?.id}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="stylesheet" href={resetStyles} />
         <link rel="stylesheet" href={appStyles} />
+        <link rel="icon" type="image/webp" href={logo} />
         <Meta />
         <Links />
       </head>
@@ -191,13 +195,14 @@ const PAYMENTS = [
 ];
 
 function SiteFooter() {
+  const logo = useLogo();
   return (
     <footer style={{
       marginTop: 'clamp(56px, 7vw, 88px)', background: 'var(--panel)', borderTop: '1px solid var(--border)',
       padding: 'clamp(32px, 4vw, 48px) clamp(16px, 4vw, 56px)', display: 'flex', flexDirection: 'column', gap: 22,
     }}>
       <div style={{display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap'}}>
-        <img src="/logo.webp" alt="Diamond Packs" style={{width: 44, height: 44, borderRadius: '50%', objectFit: 'cover', boxShadow: '0 0 0 1.5px var(--accent)'}} />
+        <img src={logo} alt="Diamond Packs" className="dp-logo" style={{width: 44, height: 44, borderRadius: '50%', objectFit: 'cover', boxShadow: '0 0 0 1.5px var(--accent)'}} />
         <span style={{fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(22px, 3vw, 34px)', letterSpacing: '-0.02em'}}>DIAMOND PACKS</span>
       </div>
       <div style={{fontFamily: 'var(--font-mono)', fontSize: 13, letterSpacing: '0.06em', color: 'var(--fg-muted)'}}>
@@ -222,12 +227,23 @@ function SiteFooter() {
   );
 }
 
+const SEASON_RIBBON: Record<string, string> = {
+  thanksgiving: 'HAPPY THANKSGIVING · GIVING THANKS FOR EVERY PACK',
+};
+
+function SeasonRibbon() {
+  const text = SEASON_RIBBON[useSeason()?.id ?? ''];
+  if (!text) return null;
+  return <div className="dp-season-ribbon" role="note">{text}</div>;
+}
+
 function Shell() {
   return (
     <>
       <SideNav />
       <PhoneNav />
       <div className="dp-main">
+        <SeasonRibbon />
         <Outlet />
         <SiteFooter />
       </div>

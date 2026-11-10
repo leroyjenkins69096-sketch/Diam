@@ -92,3 +92,40 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); border: 0; cursor: grab;
 }
 .dp-range input[type=range]:active::-webkit-slider-thumb { cursor: grabbing; }
+
+/* ── Seasonal themes ───────────────────────────────────────────────────────
+   <html data-season="…"> is set by the root loader only inside a window
+   configured in app/lib/seasonal.ts; outside it none of this applies. */
+html[data-season="thanksgiving"] {
+  --harvest: #E8A04C;
+  --harvest-deep: #B4532A;
+  --harvest-glow: rgba(232, 160, 76, 0.35);
+}
+html[data-season="thanksgiving"] body {
+  background:
+    radial-gradient(1200px 520px at 85% -10%, rgba(180, 83, 42, 0.12), transparent 70%),
+    radial-gradient(900px 480px at 0% 110%, rgba(232, 160, 76, 0.08), transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+}
+html[data-season="thanksgiving"] ::selection { background: var(--harvest); color: var(--ink); }
+html[data-season="thanksgiving"] .dp-logo {
+  box-shadow: 0 0 0 1.5px var(--harvest), 0 0 18px var(--harvest-glow) !important;
+}
+html[data-season="thanksgiving"] .dp-logo-hero {
+  box-shadow: 0 0 0 3px var(--harvest), 0 0 0 9px var(--bg), 0 0 0 10.5px var(--harvest-glow), 0 0 60px var(--harvest-glow) !important;
+}
+html[data-season="thanksgiving"] .dp-range-fill {
+  background: linear-gradient(90deg, var(--harvest), var(--accent));
+}
+.dp-season-ribbon {
+  padding: 9px 16px; text-align: center; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.14em;
+  color: #F6D7AE; overflow-wrap: anywhere;
+  background: linear-gradient(90deg, rgba(180, 83, 42, 0.22), rgba(232, 160, 76, 0.16), rgba(180, 83, 42, 0.22));
+  border-bottom: 1px solid rgba(232, 160, 76, 0.28);
+}
+.dp-season-ribbon::before, .dp-season-ribbon::after { content: '◆'; color: var(--harvest, #E8A04C); margin: 0 10px; font-size: 9px; vertical-align: 1px; }
+@media (max-width: 760px) {
+  .dp-season-ribbon { font-size: 10.5px; letter-spacing: 0.1em; padding: 8px 12px; }
+  .dp-season-ribbon::before, .dp-season-ribbon::after { margin: 0 6px; }
+}

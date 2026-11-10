@@ -6,20 +6,24 @@ import {ProductCard} from '~/components/ProductCard';
 import {useShelves} from '~/components/SideNav';
 import {FLOWER_BULK_TIERS} from '~/lib/cart-context';
 import {C, badgeColor, pad} from '~/lib/theme';
+import {DEFAULT_LOGO, useLogo} from '~/lib/seasonal';
+import type {RootLoader} from '~/root';
 
 const DESC = 'Top-shelf flower by the 2OZ, QP, HP and LB. Put your pack on the scale, send it to your rep, and it\'s handled.';
 
-export function meta() {
+export function meta({matches}: Route.MetaArgs) {
+  const root = matches.find((m) => m?.id === 'root')?.data as Awaited<ReturnType<RootLoader>> | undefined;
+  const image = root?.season?.logo ?? DEFAULT_LOGO;
   return [
     {title: 'Diamond Packs'},
     {name: 'description', content: DESC},
     {property: 'og:title', content: 'Diamond Packs'},
     {property: 'og:description', content: DESC},
-    {property: 'og:image', content: '/logo.webp'},
+    {property: 'og:image', content: image},
     {property: 'og:type', content: 'website'},
     {name: 'twitter:card', content: 'summary_large_image'},
     {name: 'twitter:title', content: 'Diamond Packs'},
-    {name: 'twitter:image', content: '/logo.webp'},
+    {name: 'twitter:image', content: image},
   ];
 }
 
@@ -64,6 +68,7 @@ const linkCaps: React.CSSProperties = {fontWeight: 800, fontSize: 13, letterSpac
 
 export default function Index() {
   const {todayDrops, newCount, weekDrops, specialDeals} = useLoaderData<typeof loader>();
+  const logo = useLogo();
   const shelves = useShelves().filter((s) => s.id !== 'all');
   const howRef = useRef<HTMLElement>(null);
   const drops = todayDrops.length > 0 ? todayDrops : weekDrops;
@@ -99,7 +104,7 @@ export default function Index() {
             position: 'absolute', inset: '-14%', borderRadius: '50%', background: 'repeating-conic-gradient(rgba(138,220,255,0.13) 0 6deg, transparent 6deg 18deg)',
             WebkitMask: 'radial-gradient(circle, #000 30%, transparent 70%)', mask: 'radial-gradient(circle, #000 30%, transparent 70%)',
           }} />
-          <img src="/logo.webp" alt="Diamond Packs logo" style={{
+          <img src={logo} alt="Diamond Packs logo" className="dp-logo dp-logo-hero" style={{
             position: 'absolute', inset: '9%', width: '82%', height: '82%', objectFit: 'cover', borderRadius: '50%', transform: 'rotate(-6deg)',
             boxShadow: `0 0 0 3px ${C.cyan}, 0 0 0 9px ${C.bg}, 0 0 0 10.5px rgba(138,220,255,0.35), 0 0 60px rgba(138,220,255,0.35)`,
           }} />

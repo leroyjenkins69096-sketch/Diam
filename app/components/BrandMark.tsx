@@ -1,13 +1,16 @@
 import {Link} from 'react-router';
 import {C} from '~/lib/theme';
+import {useLogo} from '~/lib/seasonal';
 
 /** Round logo + wordmark. `stacked` = sidebar (two lines + tagline), otherwise inline (phone header). */
 export function BrandMark({size = 50, stacked = false}: {size?: number; stacked?: boolean}) {
+  const logo = useLogo();
   return (
     <Link to="/" className="dp-plain" style={{display: 'flex', alignItems: 'center', gap: stacked ? 12 : 10, cursor: 'pointer', color: C.text}}>
       <img
-        src="/logo.webp"
+        src={logo}
         alt="Diamond Packs"
+        className="dp-logo"
         style={{
           width: size, height: size, borderRadius: '50%', objectFit: 'cover', flexShrink: 0,
           boxShadow: stacked ? `0 0 0 1.5px ${C.cyan}, 0 0 18px rgba(138,220,255,0.35)` : `0 0 0 1.5px ${C.cyan}`,

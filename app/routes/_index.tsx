@@ -9,7 +9,7 @@ import {C, badgeColor, pad} from '~/lib/theme';
 import {DEFAULT_LOGO, useLogo} from '~/lib/seasonal';
 import type {RootLoader} from '~/root';
 
-const DESC = 'Top-shelf flower by the 2OZ, QP, HP and LB. Put your pack on the scale, send it to your rep, and it\'s handled.';
+const DESC = 'Top-shelf flower by the OZ, QP, HP, and LB. Put your pack on the scale, send it to your rep, and it\'s handled.';
 
 export function meta({matches}: Route.MetaArgs) {
   const root = matches.find((m) => m?.id === 'root')?.data as Awaited<ReturnType<RootLoader>> | undefined;
